@@ -14,16 +14,16 @@ public class Test1 {
 	@BeforeMethod
 	public void openAppln()
 	{
-	/*String key="webdriver.gecko.driver";
+	String key="webdriver.gecko.driver";
 	String value="./Softwares/geckodriver.exe";
 	System.setProperty(key, value);
 	 
-	driver=new FirefoxDriver();*/
-		String key="webdriver.chrome.driver";
+	driver=new FirefoxDriver();
+	/*	String key="webdriver.chrome.driver";
 		String value="./Softwares/chromedriver.exe";
 		System.setProperty(key, value);
 		 
-		driver=new ChromeDriver();
+		driver=new ChromeDriver();*/
 		
 		
 	driver.get("https://en-gb.facebook.com/login/");
