@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48748" started-at="2018-05-12T18:27:33Z" finished-at="2018-05-12T18:28:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48748" started-at="2018-05-12T18:27:33Z" finished-at="2018-05-12T18:28:22Z">
+      <class name="com.practice.jenkins.May12.Test1">
+        <test-method status="PASS" signature="openAppln()[pri:0, instance:com.practice.jenkins.May12.Test1@27efef64]" name="openAppln" is-config="true" duration-ms="32939" started-at="2018-05-12T18:27:33Z" finished-at="2018-05-12T18:28:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppln -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.practice.jenkins.May12.Test1@27efef64]" name="testLogin" duration-ms="11208" started-at="2018-05-12T18:28:06Z" finished-at="2018-05-12T18:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="closeAppln()[pri:0, instance:com.practice.jenkins.May12.Test1@27efef64]" name="closeAppln" is-config="true" duration-ms="4539" started-at="2018-05-12T18:28:18Z" finished-at="2018-05-12T18:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAppln -->
+      </class> <!-- com.practice.jenkins.May12.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
