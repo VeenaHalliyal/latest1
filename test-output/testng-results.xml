@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48749" started-at="2018-05-13T10:29:51Z" finished-at="2018-05-13T10:30:40Z">
+  <suite name="Default suite" duration-ms="76765" started-at="2018-05-13T11:08:13Z" finished-at="2018-05-13T11:09:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48749" started-at="2018-05-13T10:29:51Z" finished-at="2018-05-13T10:30:40Z">
+    <test name="Default test" duration-ms="76765" started-at="2018-05-13T11:08:13Z" finished-at="2018-05-13T11:09:30Z">
+      <class name="com.practice.jenkins.May12.Test2">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.practice.jenkins.May12.Test2@3e6fa38a]" name="test2" duration-ms="22135" started-at="2018-05-13T11:08:13Z" finished-at="2018-05-13T11:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.practice.jenkins.May12.Test2 -->
       <class name="com.practice.jenkins.May12.Test1">
-        <test-method status="PASS" signature="openAppln()[pri:0, instance:com.practice.jenkins.May12.Test1@27efef64]" name="openAppln" is-config="true" duration-ms="34245" started-at="2018-05-13T10:29:51Z" finished-at="2018-05-13T10:30:25Z">
+        <test-method status="PASS" signature="openAppln()[pri:0, instance:com.practice.jenkins.May12.Test1@66a3ffec]" name="openAppln" is-config="true" duration-ms="31112" started-at="2018-05-13T11:08:36Z" finished-at="2018-05-13T11:09:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAppln -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.practice.jenkins.May12.Test1@27efef64]" name="testLogin" duration-ms="9839" started-at="2018-05-13T10:30:25Z" finished-at="2018-05-13T10:30:35Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.practice.jenkins.May12.Test1@66a3ffec]" name="testLogin" duration-ms="17394" started-at="2018-05-13T11:09:07Z" finished-at="2018-05-13T11:09:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="closeAppln()[pri:0, instance:com.practice.jenkins.May12.Test1@27efef64]" name="closeAppln" is-config="true" duration-ms="4606" started-at="2018-05-13T10:30:35Z" finished-at="2018-05-13T10:30:40Z">
+        <test-method status="PASS" signature="closeAppln()[pri:0, instance:com.practice.jenkins.May12.Test1@66a3ffec]" name="closeAppln" is-config="true" duration-ms="6052" started-at="2018-05-13T11:09:24Z" finished-at="2018-05-13T11:09:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAppln -->
