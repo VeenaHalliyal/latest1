@@ -45,7 +45,7 @@ public class Test1 {
 @AfterMethod
 public void closeAppln() throws InterruptedException
 {
-Thread.sleep(4000);
+Thread.sleep(5000);
 	driver.quit();
 }
 }
