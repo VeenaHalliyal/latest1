@@ -27,6 +27,7 @@ public class Test1 {
 		
 		
 	driver.get("https://en-gb.facebook.com/login/");
+	driver.manage().window().maximize();
 	
 	}
 	@Test

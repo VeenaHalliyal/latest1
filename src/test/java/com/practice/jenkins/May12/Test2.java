@@ -15,6 +15,7 @@ public class Test2 {
 	System.setProperty(key, value);
 	WebDriver driver=new FirefoxDriver();
 	driver.get("https://www.flipkart.com/");
+	driver.manage().window().maximize();
 	//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	Thread.sleep(500);
 	driver.findElement(By.xpath("/html/body/div[2]/div/div/button")).click();
